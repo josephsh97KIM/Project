@@ -28,8 +28,8 @@ node4.link = node5
 # print(node1.link.link.link.data, end = ' ')
 # print(node1.link.link.link.link.data, end = ' ')
 
-current = node1
+current = node1   #첫번째 노드를 current노드로 지정하고 데이터를 출력
 print(current.data, end = ' ')
-while current.link !=None :
+while current.link !=None :  #현재노드의 링크가 비어있지 않는 동안 반복
     current = current.link
     print(current.data,end = ' ')
